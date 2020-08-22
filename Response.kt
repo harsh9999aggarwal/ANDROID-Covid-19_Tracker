@@ -1,3 +1,7 @@
+package com.example.covid_tracker
+
+import com.google.gson.annotations.SerializedName
+
 data class Response(
 
 	@field:SerializedName("cases_time_series")
@@ -117,4 +121,3 @@ data class StatewiseItem(
 	@field:SerializedName("lastupdatedtime")
 	val lastupdatedtime: String? = null
 )
-
